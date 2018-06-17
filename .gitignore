@@ -1,2 +1,8 @@
+# Generated site
+public/
+
 # node modules
 node_modules
+
+# cache
+.cache
