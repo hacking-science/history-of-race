@@ -55,6 +55,7 @@ module.exports = {
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
+    `gatsby-plugin-postcss-sass`,
     {
       resolve: "gatsby-plugin-manifest",
       options: {
