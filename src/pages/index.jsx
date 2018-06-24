@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { Link } from "react-scroll";
-import SEO from "../components/SEO/SEO";
+import Img from "gatsby-image";
 import config from "../../data/SiteConfig";
 import Drawer from "../layouts/Drawer/Drawer";
 import Navigation from "../components/Navigation/Navigation";
@@ -55,7 +55,7 @@ class IndexTemplate extends React.Component {
           {/* All the main content gets inserted here */}
           <div className="home-template">
             {/* The big featured header */}
-            <MainHeader cover={config.siteCover}>
+            <MainHeader cover={this.props.data.headerImage}>
               <MainNav overlay={config.siteCover}>
                 <BlogLogo logo={config.siteLogo} title={config.siteTitle} />
                 <MenuButton
@@ -64,6 +64,11 @@ class IndexTemplate extends React.Component {
                 />
               </MainNav>
               <div className="vertical">
+                <Img
+                  title="History of race"
+                  alt="Teenager of colour and policemean"
+                  sizes={this.props.data.headerImage.sizes}
+                />
                 <div className="main-header-content inner">
                   <PageTitle text={config.siteTitle} />
                   <PageDescription text={config.siteDescription} />
@@ -98,3 +103,13 @@ class IndexTemplate extends React.Component {
 }
 
 export default IndexTemplate;
+
+export const pageQuery = graphql`
+  query HeaderImageQuery {
+    headerImage: imageSharp(id: { regex: "/cover/" }) {
+      sizes(maxWidth: 1240 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`
