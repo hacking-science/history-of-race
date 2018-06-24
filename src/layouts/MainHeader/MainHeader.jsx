@@ -1,24 +1,15 @@
 import React from "react";
 import classNames from "classnames";
-import "./MainHeader.css";
+import "./MainHeader.scss";
 
 class MainHeader extends React.Component {
   render() {
-    const { children, cover } = this.props;
+    const { children } = this.props;
 
-    const classes = classNames("main-header", this.props.className, {
-      "no-cover": !cover
-    });
-
-    const getStyle = () => {
-      if (cover) {
-        return { backgroundImage: `url("${cover}")` };
-      }
-      return null;
-    };
+    const classes = classNames("main-header", this.props.className);
 
     return (
-      <header className={classes} style={getStyle()}>
+      <header className={classes}>
         {children}
       </header>
     );
