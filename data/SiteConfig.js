@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: "Resistance", // Site title.
+  siteTitle: "Race Racism Resistance", // Site title.
   siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "A Casper themed GatsbyJS stater based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
+    "9th - 10th August 2018 at SOAS", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "https://haysclark.github.io/gatsby-starter-casper/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
