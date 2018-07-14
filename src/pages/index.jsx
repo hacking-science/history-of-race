@@ -14,6 +14,7 @@ import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
+import MainContent from "../layouts/MainContent/MainContent";
 
 class IndexTemplate extends React.Component {
   state = {
@@ -90,7 +91,9 @@ class IndexTemplate extends React.Component {
               </Link>
             </MainHeader>
           </div>
-
+          <div className="inner">
+            <MainContent></MainContent>
+          </div>
           {/* The tiny footer at the very bottom */}
           <Footer
             copyright={config.copyright}

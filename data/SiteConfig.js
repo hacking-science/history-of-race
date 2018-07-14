@@ -17,17 +17,17 @@ module.exports = {
   googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
-    "https://github.com/haysclark/gatsby-starter-casper",
+    "https://www.facebook.com/events/427941207654599/",
     "https://twitter.com/gatsbyjs",
-    "mailto:gatsbyjs@example.com"
+    "https://www.eventbrite.co.uk/e/a-history-of-race-resistance-in-britain-tickets-46437967210?aff=eac2"
   ],
   postDefaultCategoryID: "Tech", // Default category for posts.
   // Links to social profiles/projects you want to display in the navigation bar.
   userLinks: [
     {
-      label: "GitHub",
-      url: "https://github.com/haysclark/gatsby-starter-casper",
-      iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
+      label: "Facebook",
+      url: "https://www.facebook.com/events/427941207654599/",
+      iconClassName: "fa fa-facebook" // Disabled, see Navigation.jsx
     },
     {
       label: "Twitter",
@@ -35,8 +35,8 @@ module.exports = {
       iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
     },
     {
-      label: "Email",
-      url: "mailto:gatsbyjs@example.com",
+      label: "Eventbrite",
+      url: "https://www.eventbrite.co.uk/e/a-history-of-race-resistance-in-britain-tickets-46437967210?aff=eac2",
       iconClassName: "fa fa-envelope" // Disabled, see Navigation.jsx
     }
   ],
