@@ -1,8 +1,10 @@
 module.exports = {
   siteTitle: "Race Racism Resistance", // Site title.
   siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
-  siteLogo:
-    "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+  siteLogohE:
+    "/logos/hE-logo-white-croped.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+  siteLogoConsented:
+    "/logos/consented-logo-white.png",
   siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:

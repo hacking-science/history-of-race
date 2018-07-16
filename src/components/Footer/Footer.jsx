@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./Footer.css";
+import config from "../../../data/SiteConfig";
+import BlogLogo from "../BlogLogo/BlogLogo";
+import BlogLogo2 from "../BlogLogo2/BlogLogo2";
 
 class Footer extends Component {
   render() {
@@ -23,7 +26,13 @@ class Footer extends Component {
             <a href="https://www.consented.co.uk/">Consented</a> & <a href="https://www.hackingeducation.io/">hackingEducation</a> &copy;{" "}
           {year || new Date().getFullYear()}
         </section>
-        <PoweredBy show={promoteGatsby} />
+          <section>
+          <BlogLogo2 logo={config.siteLogohE} title={config.siteTitle} />
+          </section>
+          <section>
+              <BlogLogo logo={config.siteLogoConsented} title={config.siteTitle} />
+          </section>
+        {/*<PoweredBy show={promoteGatsby} />*/}
       </footer>
     );
   }
