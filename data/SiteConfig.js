@@ -18,7 +18,7 @@ module.exports = {
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
     "https://www.facebook.com/events/427941207654599/",
-    "https://twitter.com/gatsbyjs",
+    "https://www.youtube.com/watch?v=lPjfbStnWd8&list=PL40E11D5C66CAC48C",
     "https://www.eventbrite.co.uk/e/a-history-of-race-resistance-in-britain-tickets-46437967210?aff=eac2"
   ],
   postDefaultCategoryID: "Tech", // Default category for posts.
@@ -30,8 +30,8 @@ module.exports = {
       iconClassName: "fa fa-facebook" // Disabled, see Navigation.jsx
     },
     {
-      label: "Twitter",
-      url: "https://twitter.com/gatsbyjs",
+      label: "Stanford Lectures",
+      url: "https://www.youtube.com/watch?v=lPjfbStnWd8&list=PL40E11D5C66CAC48C",
       iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
     },
     {
@@ -42,7 +42,7 @@ module.exports = {
   ],
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
-    label: "Gatsby Casper Starter" // Label used before the year
+    //label: "Consented & hackingEducation" // Label used before the year
     // year: "2018" // optional, set specific copyright year or range of years, defaults to current year
     // url: "https://www.gatsbyjs.org/" // optional, set link address of copyright, defaults to site root
   },

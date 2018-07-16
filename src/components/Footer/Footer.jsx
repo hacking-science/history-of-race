@@ -20,7 +20,7 @@ class Footer extends Component {
     return (
       <footer className="site-footer clearfix">
         <section className="copyright">
-          <a href={url || "/"}>{label}</a> &copy;{" "}
+            <a href="https://www.consented.co.uk/">Consented</a> & <a href="https://www.hackingeducation.io/">hackingEducation</a> &copy;{" "}
           {year || new Date().getFullYear()}
         </section>
         <PoweredBy show={promoteGatsby} />

@@ -23,6 +23,7 @@ class MainContent extends React.Component {
         <p>The event is primarily aimed at sixth form students, teachers, educators and youth workers. If you are one of the above and the event is sold out please get in touch as we may have reserved.</p>
         <h3>How much does it cost?</h3>
         <p>The event is free to attend.</p>
+             <h3>Contact: info@raceinbritain.org</h3>
          </div>
       </main>
     );
