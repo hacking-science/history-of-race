@@ -5,6 +5,8 @@ module.exports = {
     "/logos/hE-logo-white-croped.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteLogoConsented:
     "/logos/consented-logo-white.png",
+  siteLogoFist:
+    "/logos/resistance-hand-white.png",
   siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:

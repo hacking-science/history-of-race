@@ -1,8 +1,12 @@
-import React from "react";
 import classNames from "classnames";
 import "./MainContent.css";
+import BlogPicture from "../../components/BlogPicture/BlogPicture";
+import config from "../../../data/SiteConfig";
+import React, { Component } from "react";
 
-class MainContent extends React.Component {
+
+
+class MainContent extends Component {
   render() {
     const { children } = this.props;
 
@@ -12,9 +16,9 @@ class MainContent extends React.Component {
 
     return (
       <main id="content" className={classes} role="main">
-         <div>
+         <div class="float">
           <h3>Why are we hosting this event?</h3>
-          <p>Conversations around race and racism often take our attention to the United States. But what about race and resistance in Britain?</p>
+          <p><BlogPicture logo={config.siteLogoFist}/>Conversations around race and racism often take our attention to the United States. But what about race and resistance in Britain?</p>
           <p>The historic ways in which people have resisted state racism and colonialism in these isles are often ignored, erased and forgotton. This is despite the fact that there is a rich history of people of colour resisting state racism in Britain
           , from the 1976 Grunwick Strike -led by women of colour- to organising of the British Black Panthers.</p>
         <p>This initiative aims to bring together experts and academics who will discuss the historic and often ignored ways in which people of colour have organised to combat racism, as well as how these struggles connect to present day movements.</p>
@@ -24,7 +28,9 @@ class MainContent extends React.Component {
         <h3>How much does it cost?</h3>
         <p>The event is free to attend.</p>
              <h3>Contact: info@raceinbritain.org</h3>
+
          </div>
+
       </main>
     );
   }

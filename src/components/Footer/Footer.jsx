@@ -3,6 +3,7 @@ import "./Footer.css";
 import config from "../../../data/SiteConfig";
 import BlogLogo from "../BlogLogo/BlogLogo";
 import BlogLogo2 from "../BlogLogo2/BlogLogo2";
+import BlogPicture from "../BlogPicture/BlogPicture";
 
 class Footer extends Component {
   render() {
