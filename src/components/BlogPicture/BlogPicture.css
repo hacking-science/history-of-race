@@ -1,7 +1,7 @@
 /* Appears in the bottom right corner of your home page */
 .blog-picture {
     display: block;
-    float: none;
+    float: right;
     background: none !important; /* Makes sure there is never a background */
     border: none !important; /* Makes sure there is never a border */
 }
@@ -14,10 +14,10 @@
     height: 650px;
     padding: 1px 0 5px;
     width: auto;
-    position: absolute;
+    /*position: absolute;*/
     right:0px;
     bottom:100px;
-    float:none;
+    float:right;
 }
 
 /* ==========================================================================
