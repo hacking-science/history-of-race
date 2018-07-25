@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Race Racism Resistance", // Site title.
+  siteTitle: "Hattie Racism Resistance", // Site title.
   siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
   siteLogohE:
     "/logos/hE-logo-white-croped.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",

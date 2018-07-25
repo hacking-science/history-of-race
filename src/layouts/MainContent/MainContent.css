@@ -19,3 +19,7 @@ div.absolute {
 div.float{
     float: none;
 }
+
+p{
+    float:none;
+}
