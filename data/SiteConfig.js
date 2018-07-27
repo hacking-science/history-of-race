@@ -22,7 +22,7 @@ module.exports = {
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
     "https://www.facebook.com/events/427941207654599/",
-    "https://www.youtube.com/watch?v=lPjfbStnWd8&list=PL40E11D5C66CAC48C",
+    "https://www.google.co.uk/maps/dir/''/soas+university+of+london/@51.5223291,-0.1992985,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48761b31db1e0f19:0x14db538713f5b80b!2m2!1d-0.129259!2d51.52235",
     "https://www.eventbrite.co.uk/e/a-history-of-race-resistance-in-britain-tickets-46437967210?aff=eac2"
   ],
   postDefaultCategoryID: "Tech", // Default category for posts.
@@ -34,8 +34,8 @@ module.exports = {
       iconClassName: "fa fa-facebook" // Disabled, see Navigation.jsx
     },
     {
-      label: "Stanford Lectures",
-      url: "https://www.youtube.com/watch?v=lPjfbStnWd8&list=PL40E11D5C66CAC48C",
+      label: "Location",
+      url: "https://www.google.co.uk/maps/place/SOAS+University+of+London/@51.5224686,-0.1313338,17z/data=!4m5!3m4!1s0x48761b31db1e0f19:0x14db538713f5b80b!8m2!3d51.52235!4d-0.129259",
       iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
     },
     {
