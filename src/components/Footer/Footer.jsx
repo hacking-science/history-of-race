@@ -26,7 +26,6 @@ class Footer extends Component {
         <section className="copyright">
             <a href="https://www.consented.co.uk/">Consented</a> & <a href="https://www.hackingeducation.io/">hackingEducation</a> &copy;{" "}
           {year || new Date().getFullYear()}
-            <p>Email: info@raceinbritain.org</p>
         </section>
           <section>
           <BlogLogo2 logo={config.siteLogohE} title={config.siteTitle} />
