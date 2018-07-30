@@ -16,9 +16,7 @@ class MainContent extends Component {
 
     return (
       <main id="content" className={classes} role="main">
-         <div>
 
-             <div>
              <h3>What is the event?</h3>
              <p>On the 9th and 10th of August hackingEducation
                  and Consented bring you A History of Race and Resistance in Britain, a two day event at SOAS university aimed at exploring the ways in which people have historically fought racism in Britain. The event will comprise of eight lectures and eight workshops over
@@ -43,8 +41,8 @@ class MainContent extends Component {
              <p>Register: <a href="https://www.eventbrite.co.uk/e/a-history-of-race-resistance-in-britain-tickets-46437967210?aff=eac2">Sign up</a></p>
              <p>Time: Wednesday 9th of August 10.30am-5pm & Tuesday 10th of August 10.30am-5pm </p>
              <p>Email: info@raceinbritain.org</p>
-            </div>
-         </div>
+
+
 
       </main>
     );
