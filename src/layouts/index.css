@@ -637,33 +637,12 @@ button {
     white-space: pre-line;
 
 }
-@media only screen and (max-width: 900px) {
-    .inner-content {
-        padding: 4px 0;
-        position: relative;
-        width: 80%;
-        max-width: 1100px;
-        margin: 0 auto;
-        margin-top: 500px;
-        white-space: pre-line;
-
-    }
-}
 
 /* ==========================================================================
        Media Queries - Smaller than 500px
    ========================================================================== */
 
-@media only screen and (max-width: 500px) {
-    .inner-content {
-        padding: 4px 0;
-        position: relative;
-        width: 80%;
-        max-width: 1100px;
-        margin: 0 auto;
-        margin-top: 675px;
-    }
-}
+
 /* Centres vertically yo. (IE8+) */
 .vertical {
     display: table-cell;
@@ -736,6 +715,17 @@ button {
     h6 {
         font-size: 1.8rem;
     }
+
+    .inner-content {
+        padding: 4px 0;
+        position: relative;
+        width: 80%;
+        max-width: 1100px;
+        margin: 0 auto;
+        margin-top: 150px;
+        white-space: pre-line;
+
+    }
 }
 
 /* ==========================================================================
@@ -794,10 +784,18 @@ button {
     .inner {
         width: auto;
         margin: 2rem auto;
-        float: none;
     }
 
-    div{
-        float:none;
+    .inner-content {
+        padding: 4px 0;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .blog-picture img {
+        right:50px;
+        height:250px;
     }
 }
