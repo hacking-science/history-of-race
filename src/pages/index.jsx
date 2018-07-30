@@ -15,6 +15,7 @@ import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 import MainContent from "../layouts/MainContent/MainContent";
+import BlogPicture from "../components/BlogPicture/BlogPicture";
 
 class IndexTemplate extends React.Component {
   state = {
@@ -47,7 +48,8 @@ class IndexTemplate extends React.Component {
 
     return (
       <Drawer className="home-template" isOpen={this.state.menuOpen}>
-        <Helmet title={config.siteTitle} />
+          <Helmet titleNew={config.sitePreTitle} />
+          <Helmet title={config.siteTitle} />
 
         {/* The blog navigation links */}
         <Navigation config={config} onClose={this.handleOnClose} />
@@ -90,21 +92,60 @@ class IndexTemplate extends React.Component {
                 <span className="hidden">Scroll Down</span>
               </Link>
             </MainHeader>
-              <div className="inner">
+
+              {/*<MainHeader cover={config.siteLogoFist}>
+                  <MainNav overlay={config.siteLogoFist}>
+                      <BlogLogo logo={config.siteLogo} title={config.siteTitle} />
+                      <MenuButton
+                          navigation={config.siteNavigation}
+                          onClick={this.handleOnClick}
+                      />
+                  </MainNav>
+                  <div className="vertical">
+                      <Img
+                          title="History of race"
+                          alt="Teenager of colour and policemean"
+                          src="../img/programme_design_landscape%20(1).png"
+                          sizes={this.props.data.headerImage.sizes}
+                      />
+                      <div className="main-header-content inner">
+                          <PageTitle text={config.siteTitle} />
+                          <PageDescription text={config.siteDescription} />
+                          <SocialMediaIcons
+                              urls={config.siteSocialUrls}
+                              color="currentColor"
+                          />
+                      </div>
+                  </div>
+                  <Link
+                      className="scroll-down icon-arrow-left"
+                      to="content"
+                      data-offset="-45"
+                      spy
+                      smooth
+                      duration={500}
+                  >
+                      <span className="hidden">Scroll Down</span>
+                  </Link>
+              </MainHeader>*/}
+              <div>
+                  <BlogPicture logo={config.siteLogoFist}/>
+              </div>
+
+              <div className="inner-content">
                   <MainContent></MainContent>
                   <br></br>
                   <br></br>
                   <br></br>
-              </div>
+
           </div>
-          {/*<div className="inner">*/}
-            {/*<MainContent></MainContent>*/}
-          {/*</div>*/}
-          {/* The tiny footer at the very bottom */}
+          </div>
+          <div>
           <Footer
             copyright={config.copyright}
             promoteGatsby={config.promoteGatsby}
           />
+          </div>
         </SiteWrapper>
       </Drawer>
     );

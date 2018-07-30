@@ -6,6 +6,7 @@ class SEO extends Component {
   render() {
     const { postNode, postPath, postSEO } = this.props;
     let title;
+    let titleNew;
     let description;
     let image;
     let postURL;
@@ -19,6 +20,7 @@ class SEO extends Component {
       postURL = config.siteUrl + config.pathPrefix + postPath;
     } else {
       title = config.siteTitle;
+      titleNew = config.sitePreTitle;
       description = config.siteDescription;
       image = config.siteLogo;
     }
@@ -80,6 +82,7 @@ class SEO extends Component {
         {/* OpenGraph tags */}
         <meta property="og:url" content={postSEO ? postURL : blogURL} />
         {postSEO ? <meta property="og:type" content="article" /> : null}
+          <meta property="og:titleNew" content={titleNew} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image} />
