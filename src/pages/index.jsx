@@ -128,21 +128,24 @@ class IndexTemplate extends React.Component {
                       <span className="hidden">Scroll Down</span>
                   </Link>
               </MainHeader>*/}
-              <div className="inner">
+              <div>
+                  <BlogPicture logo={config.siteLogoFist}/>
+              </div>
+
+              <div className="inner-content">
                   <MainContent></MainContent>
                   <br></br>
                   <br></br>
                   <br></br>
-              </div>
+
           </div>
-          {/*<div className="inner">*/}
-            {/*<MainContent></MainContent>*/}
-          {/*</div>*/}
-          {/* The tiny footer at the very bottom */}
+          </div>
+          <div>
           <Footer
             copyright={config.copyright}
             promoteGatsby={config.promoteGatsby}
           />
+          </div>
         </SiteWrapper>
       </Drawer>
     );
