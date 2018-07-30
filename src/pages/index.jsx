@@ -73,7 +73,8 @@ class IndexTemplate extends React.Component {
                   sizes={this.props.data.headerImage.sizes}
                 />
                 <div className="main-header-content inner">
-                  <PageTitle text={config.siteTitle} />
+                    <PageTitle text="A History of" />
+                    <PageTitle text={config.siteTitle} />
                   <PageDescription text={config.siteDescription} />
                   <SocialMediaIcons
                     urls={config.siteSocialUrls}

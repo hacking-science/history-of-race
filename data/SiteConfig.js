@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "A History of Race & Resistance", // Site title.
+  siteTitle: "Race & Resistance", // Site title.
 
   sitePreTitle: "A History of",
   siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
