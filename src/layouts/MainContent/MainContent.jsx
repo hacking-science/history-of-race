@@ -33,13 +33,13 @@ class MainContent extends Component {
         <p>All the lectures will be recorded
             and used to create a free online resource for anyone looking to learn or teach the history of Race, Racism and Resistance in Britain.</p>
           <h3>Who can attend?</h3>
-        <p>The event is primarily aimed at sixth form students, teachers, educators and youth workers. If you are one of the above and the event is sold out please get in touch as we may have reserved.</p>
+        <p>The event is primarily aimed at sixth form students, teachers, educators and youth workers. If you are one of the above and the event is sold out please get in touch as we may have reserved spaces.</p>
         <h3>How much does it cost?</h3>
         <p>The event is free to attend.</p>
              <h3>Event Details</h3>
              <p>Location: <a href="https://www.google.co.uk/maps/place/SOAS+University+of+London/@51.5224686,-0.1313338,17z/data=!4m5!3m4!1s0x48761b31db1e0f19:0x14db538713f5b80b!8m2!3d51.52235!4d-0.129259">SOAS University</a></p>
              <p>Register: <a href="https://www.eventbrite.co.uk/e/a-history-of-race-resistance-in-britain-tickets-46437967210?aff=eac2">Sign up</a></p>
-             <p>Time: Wednesday 9th of August 10.30am-5pm & Tuesday 10th of August 10.30am-5pm </p>
+             <p>Time: Thursday 9th of August 10.30am-5pm & Friday 10th of August 10.30am-5pm </p>
              <p>Email: info@raceinbritain.org</p>
 
 
