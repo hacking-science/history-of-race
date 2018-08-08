@@ -633,8 +633,9 @@ button {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    margin-top: 800px;
+    margin-top: 850px;
     white-space: pre-line;
+    text-align: justify;
 
 }
 
@@ -724,7 +725,7 @@ button {
         margin: 0 auto;
         margin-top: 450px;
         white-space: pre-line;
-
+        text-align: justify;
     }
 }
 
@@ -792,6 +793,7 @@ button {
         width: 80%;
         margin: 0 auto;
         margin-top: 300px;
+        text-align: justify;
     }
 
     .blog-picture img {
